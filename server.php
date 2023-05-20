@@ -59,4 +59,4 @@ if ($action === 'register') {
     // Возвращаем результат в формате JSON 
     header('Content-Type: application/json');
     echo json_encode(['message' => 'Authentication successful']);
-}
+}?> 
